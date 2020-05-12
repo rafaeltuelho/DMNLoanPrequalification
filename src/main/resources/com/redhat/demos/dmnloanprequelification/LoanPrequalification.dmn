@@ -38,7 +38,7 @@
       <dmn:requiredDecision href="#_B9FFD990-B340-4B59-9BA5-C18731224B8F"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_F03EA85C-F964-4D6E-BF53-5F5FE0D2F4E2">
-      <dmn:text>Loan Payment+Tax and insurance payment</dmn:text>
+      <dmn:text>Loan Payment+Tax and Insurance Payment</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_CCB732B1-1D28-437D-8165-E91C46A036E9" name="Credit Score">
