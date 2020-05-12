@@ -136,7 +136,7 @@
       <dmn:output id="_C1994A81-B45B-4273-999B-D031E1D5DA86" typeRef="tLoanPrequalification"/>
       <dmn:rule id="_AA824E65-5923-4369-8782-AB92696E77C2">
         <dmn:inputEntry id="_5A34D936-4FE0-4D48-B786-05D2FF4C964E">
-          <dmn:text>&lt;720</dmn:text>
+          <dmn:text>&gt;720</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_9EFA633D-5280-4D2B-B7DC-A1FCBB1156F9">
           <dmn:text>"Affordable", "Marginal"</dmn:text>
@@ -158,7 +158,7 @@
       </dmn:rule>
       <dmn:rule id="_3266A2A3-39B2-45D0-BB8A-9EA282381CB4">
         <dmn:inputEntry id="_42A199C9-69D3-4D86-898D-EBE3737ABCC0">
-          <dmn:text>(620..720]</dmn:text>
+          <dmn:text>(680..720]</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_BFB345A2-DC56-4A26-AB4A-D5271AA15C28">
           <dmn:text>"Marginal"</dmn:text>
