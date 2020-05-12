@@ -139,7 +139,7 @@
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_CCB732B1-1D28-437D-8165-E91C46A036E9" dmnElementRef="_CCB732B1-1D28-437D-8165-E91C46A036E9" isCollapsed="false">
         <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:FillColor red="24" green="188" blue="247"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
@@ -175,7 +175,7 @@
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_6052A527-E44F-4F76-8A67-C517A2C853CC" dmnElementRef="_6052A527-E44F-4F76-8A67-C517A2C853CC" isCollapsed="false">
         <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:FillColor red="34" green="195" blue="244"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
@@ -211,7 +211,7 @@
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_285BBB75-5638-4A92-8D6D-FAF6FDDA2954" dmnElementRef="_285BBB75-5638-4A92-8D6D-FAF6FDDA2954" isCollapsed="false">
         <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:FillColor red="34" green="181" blue="244"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
@@ -229,7 +229,7 @@
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_9E0E76A3-1139-45AD-9EAE-BB9154D2A4EE" dmnElementRef="_9E0E76A3-1139-45AD-9EAE-BB9154D2A4EE" isCollapsed="false">
         <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:FillColor red="41" green="197" blue="244"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
@@ -238,7 +238,7 @@
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_1F913ACB-CC1E-4569-B5D2-6B2E2BB267E7" dmnElementRef="_1F913ACB-CC1E-4569-B5D2-6B2E2BB267E7" isCollapsed="false">
         <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:FillColor red="34" green="211" blue="247"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
