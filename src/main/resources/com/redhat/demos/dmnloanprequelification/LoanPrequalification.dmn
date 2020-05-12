@@ -146,8 +146,8 @@
     </dmn:informationRequirement>
     <dmn:decisionTable id="_92EDC034-2150-440B-9190-1FFA9769043F" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
       <dmn:input id="_B1A9AB01-EE4F-4C7E-A845-5311FB42DF51">
-        <dmn:inputExpression id="_252E27BC-0535-46E1-B4E3-59DE37C3E8EE">
-          <dmn:text>input-1</dmn:text>
+        <dmn:inputExpression id="_252E27BC-0535-46E1-B4E3-59DE37C3E8EE" typeRef="tPercent">
+          <dmn:text>DTI pct</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:output id="_6428CA9C-C1CB-4A47-A28E-7CBD2C902059" typeRef="tAffordabilityCategory"/>
