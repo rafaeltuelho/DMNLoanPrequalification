@@ -169,7 +169,7 @@
       </dmn:rule>
       <dmn:rule id="_833D443A-DA4E-4050-A4A7-4E963703C416">
         <dmn:inputEntry id="_C1D97A5C-8A8F-4244-9AAB-8686D6EDE295">
-          <dmn:text>(620..680]</dmn:text>
+          <dmn:text>[620..680]</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_07073A33-790F-4441-9A0D-E0D90899125E">
           <dmn:text>"Affordable"</dmn:text>
@@ -180,7 +180,7 @@
       </dmn:rule>
       <dmn:rule id="_81EA4A68-3744-4067-AB20-4143DDA105F0">
         <dmn:inputEntry id="_880C974D-1452-44A6-ABED-8043BA346DCD">
-          <dmn:text>(620..680]</dmn:text>
+          <dmn:text>[620..680]</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_22FB410E-4DDA-403D-BDCB-5498D2A37DBB">
           <dmn:text>"Marginal"</dmn:text>
