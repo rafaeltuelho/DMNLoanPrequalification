@@ -139,6 +139,9 @@
     <dmn:informationRequirement id="_44B508F8-3AC8-4407-8568-2D1AC4961898">
       <dmn:requiredDecision href="#_531AFF56-9BF6-4F84-A21F-6EF9936EF748"/>
     </dmn:informationRequirement>
+    <dmn:literalExpression id="_8E3EDDEF-2DC7-4EC5-94C4-3993A9C09E1D">
+      <dmn:text>(Housing Expense/Monthly Income)*100</dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_7067B61C-7446-4104-BA04-7207B2893FE2" name="Loan Prequalification">
     <dmn:extensionElements/>
@@ -255,6 +258,9 @@
             <kie:width>243.0</kie:width>
             <kie:width>224.0</kie:width>
             <kie:width>194.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_8E3EDDEF-2DC7-4EC5-94C4-3993A9C09E1D">
+            <kie:width>300.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_92EDC034-2150-440B-9190-1FFA9769043F">
             <kie:width>50.0</kie:width>
