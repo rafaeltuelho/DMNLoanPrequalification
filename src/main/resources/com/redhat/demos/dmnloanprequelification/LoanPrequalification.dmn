@@ -7,12 +7,44 @@
       <dmn:text>"Likely approved", "Possibly approved", "Likely disapproved"</dmn:text>
     </dmn:allowedValues>
   </dmn:itemDefinition>
+  <dmn:itemDefinition id="_0BD6838C-CCD5-47D7-8772-F5DF893774A9" name="tCreditScore" isCollection="false">
+    <dmn:typeRef>number</dmn:typeRef>
+    <dmn:allowedValues kie:constraintType="range" id="_154E19AD-3555-482E-839E-98E82D8AA4DC">
+      <dmn:text>[300..850]</dmn:text>
+    </dmn:allowedValues>
+  </dmn:itemDefinition>
+  <dmn:itemDefinition id="_DA588FD6-6754-4395-B370-A5896C8AEEBC" name="tPositiveNumber" isCollection="false">
+    <dmn:typeRef>number</dmn:typeRef>
+    <dmn:allowedValues kie:constraintType="expression" id="_14984525-6648-40E7-9CBC-D2FA9EA6EDC5">
+      <dmn:text>&gt;0</dmn:text>
+    </dmn:allowedValues>
+  </dmn:itemDefinition>
+  <dmn:inputData id="_9E0E76A3-1139-45AD-9EAE-BB9154D2A4EE" name="Loan Rate pct">
+    <dmn:extensionElements/>
+    <dmn:variable id="_66A64508-23CA-4A6D-86C8-15B6A61A9212" name="Loan Rate pct" typeRef="tPositiveNumber"/>
+  </dmn:inputData>
+  <dmn:inputData id="_CCB732B1-1D28-437D-8165-E91C46A036E9" name="Credit Score">
+    <dmn:extensionElements/>
+    <dmn:variable id="_87545713-B8A8-4620-B605-E765ECC92958" name="Credit Score" typeRef="tCreditScore"/>
+  </dmn:inputData>
+  <dmn:inputData id="_1F913ACB-CC1E-4569-B5D2-6B2E2BB267E7" name="Down Payment">
+    <dmn:extensionElements/>
+    <dmn:variable id="_426FA10A-087C-44A7-A1FF-F57D43C5A89D" name="Down Payment" typeRef="tPositiveNumber"/>
+  </dmn:inputData>
   <dmn:decision id="_7067B61C-7446-4104-BA04-7207B2893FE2" name="Loan Prequalification">
     <dmn:extensionElements/>
     <dmn:question>What is the likely eligibility of the borrower for a mortgage loan?</dmn:question>
     <dmn:allowedAnswers>"Likely approved", "Possibly approved", "Likely disapproved"</dmn:allowedAnswers>
     <dmn:variable id="_B1479E40-0E9B-46FB-9852-B58CD585AB82" name="Loan Prequalification" typeRef="tLoanPrequalification"/>
   </dmn:decision>
+  <dmn:inputData id="_285BBB75-5638-4A92-8D6D-FAF6FDDA2954" name="Monthly Income">
+    <dmn:extensionElements/>
+    <dmn:variable id="_0F2603D5-47C3-43B6-BB24-3C44EB1A08A1" name="Monthly Income" typeRef="tPositiveNumber"/>
+  </dmn:inputData>
+  <dmn:inputData id="_6052A527-E44F-4F76-8A67-C517A2C853CC" name="Purchase Price">
+    <dmn:extensionElements/>
+    <dmn:variable id="_078ED18A-3B22-402E-9D18-9D374E749019" name="Purchase Price" typeRef="tPositiveNumber"/>
+  </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
@@ -25,6 +57,51 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="227" y="50" width="146" height="70"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_CCB732B1-1D28-437D-8165-E91C46A036E9" dmnElementRef="_CCB732B1-1D28-437D-8165-E91C46A036E9" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="95" y="216" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_285BBB75-5638-4A92-8D6D-FAF6FDDA2954" dmnElementRef="_285BBB75-5638-4A92-8D6D-FAF6FDDA2954" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="227" y="216" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_6052A527-E44F-4F76-8A67-C517A2C853CC" dmnElementRef="_6052A527-E44F-4F76-8A67-C517A2C853CC" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="369" y="216" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_9E0E76A3-1139-45AD-9EAE-BB9154D2A4EE" dmnElementRef="_9E0E76A3-1139-45AD-9EAE-BB9154D2A4EE" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="643" y="216" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_1F913ACB-CC1E-4569-B5D2-6B2E2BB267E7" dmnElementRef="_1F913ACB-CC1E-4569-B5D2-6B2E2BB267E7" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="506.29906542056074" y="216" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
     </dmndi:DMNDiagram>
