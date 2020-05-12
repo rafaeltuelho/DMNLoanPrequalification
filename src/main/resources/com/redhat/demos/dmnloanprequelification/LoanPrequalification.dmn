@@ -122,11 +122,109 @@
     <dmn:authorityRequirement id="_0D024D99-C577-4CC7-A9B2-861E454A52D9">
       <dmn:requiredAuthority href="#_B908163B-1F22-494B-ABBF-AAA970743C06"/>
     </dmn:authorityRequirement>
+    <dmn:decisionTable id="_0CCDBD5C-264E-4F15-B862-993E3993E1F4" hitPolicy="ANY" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_1C5D2013-D298-4B21-92E7-DA4FC424FEB8">
+        <dmn:inputExpression id="_49FE2439-31D9-47A7-9FF8-E8564AE6A739" typeRef="number">
+          <dmn:text>Credit Score</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_092EB1E5-9260-47D4-8EF7-80D28CFF7B5B">
+        <dmn:inputExpression id="_46423AB4-2FD5-4739-9EA1-833FBE126405" typeRef="tAffordabilityCategory">
+          <dmn:text>Affordability Category</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_C1994A81-B45B-4273-999B-D031E1D5DA86" typeRef="tLoanPrequalification"/>
+      <dmn:rule id="_AA824E65-5923-4369-8782-AB92696E77C2">
+        <dmn:inputEntry id="_5A34D936-4FE0-4D48-B786-05D2FF4C964E">
+          <dmn:text>&lt;720</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9EFA633D-5280-4D2B-B7DC-A1FCBB1156F9">
+          <dmn:text>"Affordable", "Marginal"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_C02ECD99-8DF5-42AB-9CBF-88E2C46AA498">
+          <dmn:text>"Likely approved"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_FD95DF36-7C1F-4742-B008-BA9CD6EC974D">
+        <dmn:inputEntry id="_10D15B92-D7F2-48F1-8807-A0FD45FB558B">
+          <dmn:text>(680..720]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_BB5E03B5-D5EC-4152-9175-CBB4C242920D">
+          <dmn:text>"Affordable"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_353FDCD1-EF39-4B02-A6A6-D94DE9682B8D">
+          <dmn:text>"Likely approved"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_3266A2A3-39B2-45D0-BB8A-9EA282381CB4">
+        <dmn:inputEntry id="_42A199C9-69D3-4D86-898D-EBE3737ABCC0">
+          <dmn:text>(620..720]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_BFB345A2-DC56-4A26-AB4A-D5271AA15C28">
+          <dmn:text>"Marginal"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_6BB99EB8-5523-443D-9E3F-21DFFEF711DB">
+          <dmn:text>"Possibly approved"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_833D443A-DA4E-4050-A4A7-4E963703C416">
+        <dmn:inputEntry id="_C1D97A5C-8A8F-4244-9AAB-8686D6EDE295">
+          <dmn:text>(620..680]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_07073A33-790F-4441-9A0D-E0D90899125E">
+          <dmn:text>"Affordable"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_B58EB831-97EB-46FF-BA1F-2656E0D973E7">
+          <dmn:text>"Possibly approved"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_81EA4A68-3744-4067-AB20-4143DDA105F0">
+        <dmn:inputEntry id="_880C974D-1452-44A6-ABED-8043BA346DCD">
+          <dmn:text>(620..680]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_22FB410E-4DDA-403D-BDCB-5498D2A37DBB">
+          <dmn:text>"Marginal"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_CC5F8D14-3863-4F19-91FC-6A89E03F04C6">
+          <dmn:text>"Likely disapproved"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_22DDEDD3-2A42-4979-B5C6-1597610075B0">
+        <dmn:inputEntry id="_3EEE01DD-7E34-4A20-A281-EBD6F855B518">
+          <dmn:text>&lt;620</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_909647E2-9733-4FFE-9A7B-1483987EC06F">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_C33AEF17-30E4-4103-9742-2283C301A6AB">
+          <dmn:text>"Likely disapproved"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_8E28163C-8053-45DE-8BB4-D6E9F94782C5">
+        <dmn:inputEntry id="_09BDBF20-1D7B-423E-89AB-C5F4E2F248A5">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_C726BA9C-9854-4BE1-993E-8097D998C828">
+          <dmn:text>"Unaffordable"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_F8E65B74-84DC-49D1-8585-4C219E49009E">
+          <dmn:text>"Likely disapproved"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
   </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
-        <kie:ComponentsWidthsExtension/>
+        <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_0CCDBD5C-264E-4F15-B862-993E3993E1F4">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>243.0</kie:width>
+            <kie:width>224.0</kie:width>
+            <kie:width>194.0</kie:width>
+          </kie:ComponentWidths>
+        </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-_7067B61C-7446-4104-BA04-7207B2893FE2" dmnElementRef="_7067B61C-7446-4104-BA04-7207B2893FE2" isCollapsed="false">
         <dmndi:DMNStyle>
