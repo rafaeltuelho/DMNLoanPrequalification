@@ -97,6 +97,38 @@
     <dmn:informationRequirement id="_E2BD4DD4-1AB4-4505-B2B9-09394BE86CD1">
       <dmn:requiredDecision href="#_9BE479AF-AB00-49D3-960F-ADF3C1FF3CB6"/>
     </dmn:informationRequirement>
+    <dmn:decisionTable id="_92EDC034-2150-440B-9190-1FFA9769043F" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_B1A9AB01-EE4F-4C7E-A845-5311FB42DF51">
+        <dmn:inputExpression id="_252E27BC-0535-46E1-B4E3-59DE37C3E8EE">
+          <dmn:text>input-1</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_6428CA9C-C1CB-4A47-A28E-7CBD2C902059" typeRef="tAffordabilityCategory"/>
+      <dmn:rule id="_A83A1771-C90B-4B5A-9993-5714AEDBDA45">
+        <dmn:inputEntry id="_73A8ED3D-10A5-402F-9931-A4AFC811754E">
+          <dmn:text>&lt;26</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3A0CF1DD-3E5B-4BC1-9D63-73E1262A2849">
+          <dmn:text>"Affordable"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_A97BB846-ABC8-4D4F-9FEA-D0C34EEB9985">
+        <dmn:inputEntry id="_FB067328-241C-4B6D-B436-B32D4C7708D4">
+          <dmn:text>[26..28]</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_8BF46A8F-1612-421C-9163-791DA2446018">
+          <dmn:text>"Marginal"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_879B5FF6-02B0-4851-9347-D6738C869582">
+        <dmn:inputEntry id="_173E81A9-603F-4231-ABBD-8250553961DB">
+          <dmn:text>&gt;28</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_F10EFCAA-F591-4F8A-BF12-0B071097AB34">
+          <dmn:text>"Unaffordable"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
   </dmn:decision>
   <dmn:decision id="_9BE479AF-AB00-49D3-960F-ADF3C1FF3CB6" name="DTI pct">
     <dmn:extensionElements/>
@@ -223,6 +255,12 @@
             <kie:width>243.0</kie:width>
             <kie:width>224.0</kie:width>
             <kie:width>194.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_92EDC034-2150-440B-9190-1FFA9769043F">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>213.0</kie:width>
+            <kie:width>100.0</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
