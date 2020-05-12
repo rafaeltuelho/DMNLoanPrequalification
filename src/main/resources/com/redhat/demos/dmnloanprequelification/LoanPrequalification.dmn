@@ -1,11 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_556FD415-D569-4331-89EF-F917CE6C6267" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_B884558B-8D5F-41E7-A14D-9BC8E6158C1D" name="LoanPrequalification" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_556FD415-D569-4331-89EF-F917CE6C6267">
   <dmn:extensionElements/>
+  <dmn:itemDefinition id="_E7C8E8D0-E7B7-4E59-91E2-D7AC4206D48F" name="tLoanPrequalification" isCollection="false">
+    <dmn:typeRef>string</dmn:typeRef>
+    <dmn:allowedValues kie:constraintType="enumeration" id="_1B2DFE9B-A74E-49D0-A429-AAC756046439">
+      <dmn:text>"Likely approved", "Possibly approved", "Likely disapproved"</dmn:text>
+    </dmn:allowedValues>
+  </dmn:itemDefinition>
+  <dmn:decision id="_7067B61C-7446-4104-BA04-7207B2893FE2" name="Loan Prequalification">
+    <dmn:extensionElements/>
+    <dmn:question>What is the likely eligibility of the borrower for a mortgage loan?</dmn:question>
+    <dmn:allowedAnswers>"Likely approved", "Possibly approved", "Likely disapproved"</dmn:allowedAnswers>
+    <dmn:variable id="_B1479E40-0E9B-46FB-9852-B58CD585AB82" name="Loan Prequalification" typeRef="tLoanPrequalification"/>
+  </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
         <kie:ComponentsWidthsExtension/>
       </di:extension>
+      <dmndi:DMNShape id="dmnshape-_7067B61C-7446-4104-BA04-7207B2893FE2" dmnElementRef="_7067B61C-7446-4104-BA04-7207B2893FE2" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="227" y="50" width="146" height="70"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
 </dmn:definitions>
