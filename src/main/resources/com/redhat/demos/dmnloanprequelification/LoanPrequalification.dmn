@@ -83,7 +83,7 @@
       <dmn:requiredInput href="#_1F913ACB-CC1E-4569-B5D2-6B2E2BB267E7"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_7A842925-065C-416C-9CF6-1579F0AD05DB">
-      <dmn:text>Purcharse Price - Down Payment</dmn:text>
+      <dmn:text>Purchase Price - Down Payment</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_0DB98860-50C4-49C8-A9D0-B77DEB785343" name="Tax and Insurance Payment">
