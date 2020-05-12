@@ -37,6 +37,9 @@
     <dmn:informationRequirement id="_0C641715-839E-4585-A25D-3D1A3B340E10">
       <dmn:requiredDecision href="#_B9FFD990-B340-4B59-9BA5-C18731224B8F"/>
     </dmn:informationRequirement>
+    <dmn:literalExpression id="_F03EA85C-F964-4D6E-BF53-5F5FE0D2F4E2">
+      <dmn:text>Loan Payment+Tax and insurance payment</dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_CCB732B1-1D28-437D-8165-E91C46A036E9" name="Credit Score">
     <dmn:extensionElements/>
@@ -262,6 +265,9 @@
           <kie:ComponentWidths dmnElementRef="_8E3EDDEF-2DC7-4EC5-94C4-3993A9C09E1D">
             <kie:width>300.0</kie:width>
           </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_F03EA85C-F964-4D6E-BF53-5F5FE0D2F4E2">
+            <kie:width>300.0</kie:width>
+          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_92EDC034-2150-440B-9190-1FFA9769043F">
             <kie:width>50.0</kie:width>
             <kie:width>100.0</kie:width>
@@ -312,7 +318,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="196.1111111111111" y="513.4269005847952" width="100" height="50"/>
+        <dc:Bounds x="171.1111111111111" y="511.42690058479525" width="151.25" height="67.5"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_6052A527-E44F-4F76-8A67-C517A2C853CC" dmnElementRef="_6052A527-E44F-4F76-8A67-C517A2C853CC" isCollapsed="false">
@@ -417,7 +423,7 @@
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_B3119666-B607-4160-98E1-AE6B962FA9E3" dmnElementRef="_B3119666-B607-4160-98E1-AE6B962FA9E3">
         <di:waypoint x="244.59813084112147" y="766"/>
-        <di:waypoint x="246.1111111111111" y="563.4269005847952"/>
+        <di:waypoint x="246.7361111111111" y="578.9269005847952"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_B60EA5A8-762B-46BF-9237-9CC03F3BF115" dmnElementRef="_B60EA5A8-762B-46BF-9237-9CC03F3BF115">
         <di:waypoint x="386" y="640.1769005847952"/>
@@ -428,7 +434,7 @@
         <di:waypoint x="454.44444444444446" y="560.5380116959063"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_339059F3-F385-4259-9AB9-2A4D623FA08F" dmnElementRef="_339059F3-F385-4259-9AB9-2A4D623FA08F">
-        <di:waypoint x="246.1111111111111" y="538.4269005847952"/>
+        <di:waypoint x="246.7361111111111" y="545.1769005847952"/>
         <di:waypoint x="334" y="448.3157894736842"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_0C641715-839E-4585-A25D-3D1A3B340E10" dmnElementRef="_0C641715-839E-4585-A25D-3D1A3B340E10">
