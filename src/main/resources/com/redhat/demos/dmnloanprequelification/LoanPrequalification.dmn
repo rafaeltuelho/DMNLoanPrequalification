@@ -71,7 +71,7 @@
       <dmn:requiredInput href="#_1F913ACB-CC1E-4569-B5D2-6B2E2BB267E7"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_7A842925-065C-416C-9CF6-1579F0AD05DB">
-      <dmn:text></dmn:text>
+      <dmn:text>Purcharse Price - Down Payment</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_0DB98860-50C4-49C8-A9D0-B77DEB785343" name="Tax and Insurance Payment">
@@ -80,6 +80,9 @@
     <dmn:informationRequirement id="_B3119666-B607-4160-98E1-AE6B962FA9E3">
       <dmn:requiredInput href="#_6052A527-E44F-4F76-8A67-C517A2C853CC"/>
     </dmn:informationRequirement>
+    <dmn:literalExpression id="_B677289C-F8FA-404E-AC61-A9D8F6D3826E">
+      <dmn:text>(1.25/100)*Purchase Price/12 + 3.50*(Purchase Price/1000)/12</dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_B9FFD990-B340-4B59-9BA5-C18731224B8F" name="Loan Payment">
     <dmn:extensionElements/>
@@ -270,6 +273,9 @@
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_8E3EDDEF-2DC7-4EC5-94C4-3993A9C09E1D">
             <kie:width>300.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_B677289C-F8FA-404E-AC61-A9D8F6D3826E">
+            <kie:width>513.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_F03EA85C-F964-4D6E-BF53-5F5FE0D2F4E2">
             <kie:width>300.0</kie:width>
