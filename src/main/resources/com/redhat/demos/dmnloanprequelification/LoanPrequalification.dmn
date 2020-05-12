@@ -70,6 +70,9 @@
     <dmn:informationRequirement id="_5C55579A-72CF-4D29-A012-396016C1C57C">
       <dmn:requiredInput href="#_1F913ACB-CC1E-4569-B5D2-6B2E2BB267E7"/>
     </dmn:informationRequirement>
+    <dmn:literalExpression id="_7A842925-065C-416C-9CF6-1579F0AD05DB">
+      <dmn:text></dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_0DB98860-50C4-49C8-A9D0-B77DEB785343" name="Tax and Insurance Payment">
     <dmn:extensionElements/>
@@ -261,6 +264,9 @@
             <kie:width>243.0</kie:width>
             <kie:width>224.0</kie:width>
             <kie:width>194.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_7A842925-065C-416C-9CF6-1579F0AD05DB">
+            <kie:width>300.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_8E3EDDEF-2DC7-4EC5-94C4-3993A9C09E1D">
             <kie:width>300.0</kie:width>
