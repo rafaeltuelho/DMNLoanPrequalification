@@ -165,7 +165,7 @@
       <dmn:binding>
         <dmn:parameter id="_9E284ACA-ACBF-4D5B-88B2-620D8F547CDB" name="r" typeRef="number"/>
         <dmn:literalExpression id="_731384E0-6745-49C0-928B-61C0D67F861B">
-          <dmn:text>services.Loan Rate pct/100</dmn:text>
+          <dmn:text>Loan Rate pct/100</dmn:text>
         </dmn:literalExpression>
       </dmn:binding>
       <dmn:binding>
