@@ -1,11 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_1F251639-888E-495C-BFC4-D181312485EF" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_7C006A30-B901-4E3E-94BA-BD354FA4660B" name="Adjusted Loan Rate" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_1F251639-888E-495C-BFC4-D181312485EF">
   <dmn:extensionElements/>
+  <dmn:decisionService id="_611CB12A-489F-49DB-B0CD-556F1D17242F" name="DecisionService-1">
+    <dmn:extensionElements/>
+    <dmn:variable id="_A1B19293-6C35-43C0-B47D-9337BCDDB8F6" name="DecisionService-1"/>
+  </dmn:decisionService>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
         <kie:ComponentsWidthsExtension/>
       </di:extension>
+      <dmndi:DMNShape id="dmnshape-_611CB12A-489F-49DB-B0CD-556F1D17242F" dmnElementRef="_611CB12A-489F-49DB-B0CD-556F1D17242F" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="157" y="142" width="200" height="200"/>
+        <dmndi:DMNLabel/>
+        <dmndi:DMNDecisionServiceDividerLine>
+          <di:waypoint x="157" y="242"/>
+          <di:waypoint x="357" y="242"/>
+        </dmndi:DMNDecisionServiceDividerLine>
+      </dmndi:DMNShape>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
 </dmn:definitions>
