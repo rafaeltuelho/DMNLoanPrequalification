@@ -47,11 +47,18 @@
     <dmn:informationRequirement id="_11C7C959-130D-4FC4-AD92-65614CD91FB4">
       <dmn:requiredInput href="#_C5831BA2-FA08-40D7-B5D6-632CBC8D4725"/>
     </dmn:informationRequirement>
+    <dmn:literalExpression id="_CEFB639A-45BD-4CF9-8CC4-14D9AC68E931">
+      <dmn:text>p_Best rate + 0.125*LLPA</dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
-        <kie:ComponentsWidthsExtension/>
+        <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_CEFB639A-45BD-4CF9-8CC4-14D9AC68E931">
+            <kie:width>300.0</kie:width>
+          </kie:ComponentWidths>
+        </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-_C5831BA2-FA08-40D7-B5D6-632CBC8D4725" dmnElementRef="_C5831BA2-FA08-40D7-B5D6-632CBC8D4725" isCollapsed="false">
         <dmndi:DMNStyle>
