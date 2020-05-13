@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_1F251639-888E-495C-BFC4-D181312485EF" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_7C006A30-B901-4E3E-94BA-BD354FA4660B" name="Adjusted Loan Rate" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_1F251639-888E-495C-BFC4-D181312485EF">
+  <dmn:extensionElements/>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <di:extension>
+        <kie:ComponentsWidthsExtension/>
+      </di:extension>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</dmn:definitions>
