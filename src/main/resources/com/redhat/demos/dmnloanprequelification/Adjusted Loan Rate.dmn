@@ -47,6 +47,9 @@
     <dmn:informationRequirement id="_11C7C959-130D-4FC4-AD92-65614CD91FB4">
       <dmn:requiredInput href="#_C5831BA2-FA08-40D7-B5D6-632CBC8D4725"/>
     </dmn:informationRequirement>
+    <dmn:informationRequirement id="_D42EF714-9AC6-4F46-8171-888E2E6A1E8E">
+      <dmn:requiredDecision href="#_5E5E41D3-44C0-46AC-B42D-D185528CD8F5"/>
+    </dmn:informationRequirement>
     <dmn:literalExpression id="_CEFB639A-45BD-4CF9-8CC4-14D9AC68E931">
       <dmn:text>p_Best rate + 0.125*LLPA</dmn:text>
     </dmn:literalExpression>
@@ -121,6 +124,10 @@
       <dmndi:DMNEdge id="dmnedge-_11C7C959-130D-4FC4-AD92-65614CD91FB4" dmnElementRef="_11C7C959-130D-4FC4-AD92-65614CD91FB4">
         <di:waypoint x="179" y="127"/>
         <di:waypoint x="340" y="128"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_D42EF714-9AC6-4F46-8171-888E2E6A1E8E" dmnElementRef="_D42EF714-9AC6-4F46-8171-888E2E6A1E8E">
+        <di:waypoint x="390" y="207"/>
+        <di:waypoint x="390" y="153"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_EABC4672-C6BF-43ED-9559-385FE2F4807A" dmnElementRef="_EABC4672-C6BF-43ED-9559-385FE2F4807A">
         <di:waypoint x="284.29906542056074" y="338"/>
