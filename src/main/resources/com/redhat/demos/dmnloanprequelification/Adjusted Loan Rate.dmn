@@ -40,6 +40,30 @@
     <dmn:informationRequirement id="_529AD526-3F2F-42CC-B58D-534E62A212D1">
       <dmn:requiredInput href="#_B8A3EB80-6EBF-4795-A472-E658FD51FB9F"/>
     </dmn:informationRequirement>
+    <dmn:decisionTable id="_DDF51729-2428-42DD-B61D-5156B165C32F" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_40AAA025-88ED-45A3-9060-285D59EE3FE8">
+        <dmn:inputExpression id="_28236645-5740-4C75-AB3D-898661CFE0AF" typeRef="number">
+          <dmn:text>p_Credit score</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_293B2146-1E14-40E9-A3FB-A720C27E67E1">
+        <dmn:inputExpression id="_EC88C5FD-CAF3-4AFA-80BC-CC9C358ED3C3" typeRef="number">
+          <dmn:text>p_LTV</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_A39EB154-6EC1-49D2-B5BC-4A902E179975" typeRef="tPercent"/>
+      <dmn:rule id="_72E6F4AD-31DC-4D95-81A6-06D12483A4CA">
+        <dmn:inputEntry id="_C5533D7B-2DE9-4AD3-AE15-A49E54E766A3">
+          <dmn:text>&gt;=740</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0B0B2A70-0804-4756-A611-089CBFFE009A">
+          <dmn:text>&lt;=60</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_BC558752-31B4-451D-A674-B204048EC5ED">
+          <dmn:text>0</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
   </dmn:decision>
   <dmn:decision id="_53253240-A9DA-48C5-A0B3-9F1A6F7D51DD" name="Rate">
     <dmn:extensionElements/>
@@ -60,6 +84,13 @@
         <kie:ComponentsWidthsExtension>
           <kie:ComponentWidths dmnElementRef="_CEFB639A-45BD-4CF9-8CC4-14D9AC68E931">
             <kie:width>300.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_DDF51729-2428-42DD-B61D-5156B165C32F">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
