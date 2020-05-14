@@ -236,7 +236,7 @@
           <dmn:text>&lt;=60</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_16E52E5D-A72E-4B2A-AADB-516D0A3322A9">
-          <dmn:text></dmn:text>
+          <dmn:text>0</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
       <dmn:rule id="_E2A87BEA-E062-4706-801C-DA2435194E46">
@@ -247,7 +247,7 @@
           <dmn:text>(60..70]</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_63F4122C-CC0E-405A-8137-99968CF499E7">
-          <dmn:text></dmn:text>
+          <dmn:text>0.5</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
       <dmn:rule id="_3EBACB4B-B0E4-4A53-95EC-CCB5C7355A92">
@@ -258,7 +258,7 @@
           <dmn:text>(70..75]</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_75A6AF44-ED78-4606-B31A-F8D527E1B97F">
-          <dmn:text></dmn:text>
+          <dmn:text>1.25</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
       <dmn:rule id="_3D1C1C78-D3CF-4A95-BC52-26B8265EA59C">
@@ -269,7 +269,7 @@
           <dmn:text>(75..80]</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_59237228-AD85-49A7-B30A-3828FD68620D">
-          <dmn:text></dmn:text>
+          <dmn:text>1.75</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
       <dmn:rule id="_95BE8A58-22D9-4D1D-A958-2F4BB1AAF545">
@@ -280,7 +280,7 @@
           <dmn:text>(80..85]</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_77660DF6-EBB5-44B6-8A1B-0050740775F8">
-          <dmn:text></dmn:text>
+          <dmn:text>1.5</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
       <dmn:rule id="_FC11F5A3-80F9-4E04-ADE1-18FAC8775C89">
@@ -291,7 +291,7 @@
           <dmn:text>(85..95]</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_A94029BA-A581-467D-AB74-2914B10CD8AE">
-          <dmn:text></dmn:text>
+          <dmn:text>1.25</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
       <dmn:rule id="_5773828F-4AA4-4D4D-A69D-57042F6DB3BF">
@@ -302,7 +302,7 @@
           <dmn:text>(95..97]</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_76226AD6-01EA-446A-97CD-120EA45BD1E5">
-          <dmn:text></dmn:text>
+          <dmn:text>1.5</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
       <dmn:rule id="_6FDB116F-9E3D-4262-B3C0-70DD9E1D5910">
