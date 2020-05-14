@@ -46,7 +46,7 @@
     </dmn:knowledgeRequirement>
     <dmn:invocation id="_B5F3FF50-A07A-4940-899B-09B91CBC4D88">
       <dmn:literalExpression id="_AFCFBF8D-3CD2-4178-BBC2-000937B890DC">
-        <dmn:text>Adjusted Loan Rate</dmn:text>
+        <dmn:text>services.Ajusted Loan Rate</dmn:text>
       </dmn:literalExpression>
       <dmn:binding>
         <dmn:parameter id="_25269164-70BA-4289-B402-6C4414E83DDD" name="p_Best Rate" typeRef="services.tPercent"/>
