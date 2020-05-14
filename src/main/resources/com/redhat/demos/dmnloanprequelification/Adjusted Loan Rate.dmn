@@ -68,7 +68,7 @@
           <dmn:text>&gt;=740</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_436F5B21-9FAF-4166-92FC-CD36285DB983">
-          <dmn:text>[60..75]</dmn:text>
+          <dmn:text>(60..75]</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_FF142A0B-81DF-42B1-A9A3-64C11E3B2B22">
           <dmn:text>0.25</dmn:text>
