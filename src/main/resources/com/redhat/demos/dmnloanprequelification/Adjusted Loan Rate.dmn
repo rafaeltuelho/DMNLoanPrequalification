@@ -10,9 +10,9 @@
       <dmn:text>[300..850]</dmn:text>
     </dmn:allowedValues>
   </dmn:itemDefinition>
-  <dmn:decisionService id="_611CB12A-489F-49DB-B0CD-556F1D17242F" name="Ajusted Loan Rate">
+  <dmn:decisionService id="_611CB12A-489F-49DB-B0CD-556F1D17242F" name="Adjusted Loan Rate">
     <dmn:extensionElements/>
-    <dmn:variable id="_A1B19293-6C35-43C0-B47D-9337BCDDB8F6" name="Ajusted Loan Rate" typeRef="tPercent"/>
+    <dmn:variable id="_A1B19293-6C35-43C0-B47D-9337BCDDB8F6" name="Adjusted Loan Rate" typeRef="tPercent"/>
     <dmn:outputDecision href="#_53253240-A9DA-48C5-A0B3-9F1A6F7D51DD"/>
     <dmn:encapsulatedDecision href="#_5E5E41D3-44C0-46AC-B42D-D185528CD8F5"/>
     <dmn:inputData href="#_C5831BA2-FA08-40D7-B5D6-632CBC8D4725"/>
