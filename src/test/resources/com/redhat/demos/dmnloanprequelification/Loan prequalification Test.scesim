@@ -3,7 +3,7 @@
     <scesimModelDescriptor>
       <factMappings>
         <FactMapping>
-          <expressionElements class="linked-list"/>
+          <expressionElements/>
           <expressionIdentifier>
             <name>Index</name>
             <type>OTHER</type>
@@ -15,9 +15,10 @@
           <className>java.lang.Integer</className>
           <factAlias>#</factAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>70.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list"/>
+          <expressionElements/>
           <expressionIdentifier>
             <name>Description</name>
             <type>OTHER</type>
@@ -29,9 +30,10 @@
           <className>java.lang.String</className>
           <factAlias>Scenario description</factAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>300.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Best rate</step>
             </ExpressionElement>
@@ -49,9 +51,30 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
+            <ExpressionElement>
+              <step>p_Best rate</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1589500520564</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>p_Best rate</name>
+            <className>.p_Best rate</className>
+          </factIdentifier>
+          <className>tPercent</className>
+          <factAlias>p_Best rate</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
             <ExpressionElement>
               <step>Credit Score</step>
             </ExpressionElement>
@@ -69,9 +92,30 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
+            <ExpressionElement>
+              <step>p_Credit score</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1589500534455</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>p_Credit score</name>
+            <className>.p_Credit score</className>
+          </factIdentifier>
+          <className>tCreditScore</className>
+          <factAlias>p_Credit score</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
             <ExpressionElement>
               <step>Down Payment</step>
             </ExpressionElement>
@@ -89,9 +133,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>LTV ratio</step>
             </ExpressionElement>
@@ -109,9 +154,30 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
+            <ExpressionElement>
+              <step>p_LTV</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1589500572031</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>p_LTV</name>
+            <className>.p_LTV</className>
+          </factIdentifier>
+          <className>tPercent</className>
+          <factAlias>p_LTV</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
             <ExpressionElement>
               <step>Monthly Income</step>
             </ExpressionElement>
@@ -129,9 +195,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Purchase Price</step>
             </ExpressionElement>
@@ -149,69 +216,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
-            <ExpressionElement>
-              <step>p_Best rate</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|7</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>p_Best rate</name>
-            <className>p_Best rate</className>
-          </factIdentifier>
-          <className>tPercent</className>
-          <factAlias>p_Best rate</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements class="linked-list">
-            <ExpressionElement>
-              <step>p_Credit score</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|8</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>p_Credit score</name>
-            <className>p_Credit score</className>
-          </factIdentifier>
-          <className>tCreditScore</className>
-          <factAlias>p_Credit score</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements class="linked-list">
-            <ExpressionElement>
-              <step>p_LTV</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|9</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>p_LTV</name>
-            <className>p_LTV</className>
-          </factIdentifier>
-          <className>tPercent</className>
-          <factAlias>p_LTV</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Affordability Category</step>
             </ExpressionElement>
@@ -229,9 +237,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>DTI pct</step>
             </ExpressionElement>
@@ -249,9 +258,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Housing Expense</step>
             </ExpressionElement>
@@ -269,9 +279,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>LLPA</step>
             </ExpressionElement>
@@ -289,9 +300,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Loan Amount</step>
             </ExpressionElement>
@@ -309,9 +321,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Loan Payment</step>
             </ExpressionElement>
@@ -329,9 +342,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Loan Prequalification</step>
             </ExpressionElement>
@@ -349,9 +363,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Loan rate pct</step>
             </ExpressionElement>
@@ -369,9 +384,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Rate</step>
             </ExpressionElement>
@@ -389,9 +405,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Tax and Insurance Payment</step>
             </ExpressionElement>
@@ -409,10 +426,11 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
-    <scesimData class="linked-list">
+    <scesimData>
       <Scenario>
         <factMappingValues>
           <FactMappingValue>
@@ -434,6 +452,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">0.2</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -444,6 +463,7 @@
               <name>1|2</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">750</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -454,6 +474,7 @@
               <name>1|3</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">40000</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -464,6 +485,7 @@
               <name>1|4</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">75</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -474,6 +496,7 @@
               <name>1|5</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">8000</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -484,36 +507,7 @@
               <name>1|6</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>p_Best rate</name>
-              <className>p_Best rate</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|7</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>p_Credit score</name>
-              <className>p_Credit score</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|8</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>p_LTV</name>
-              <className>p_LTV</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|9</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
+            <rawValue class="string">300000</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -524,6 +518,7 @@
               <name>1|10</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">Affordable</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -534,6 +529,7 @@
               <name>1|11</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -544,6 +540,7 @@
               <name>1|12</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">2</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -554,6 +551,7 @@
               <name>1|13</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -564,6 +562,7 @@
               <name>1|14</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">260000</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -574,6 +573,7 @@
               <name>1|15</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -584,6 +584,7 @@
               <name>1|16</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">Likely Approved</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -594,6 +595,7 @@
               <name>1|17</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -604,6 +606,7 @@
               <name>1|18</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -614,6 +617,51 @@
               <name>1|19</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">3</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Index</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>p_Best rate</name>
+              <className>.p_Best rate</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1589500520564</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">0.2</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>p_Credit score</name>
+              <className>.p_Credit score</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1589500534455</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">750</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>p_LTV</name>
+              <className>.p_LTV</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1589500572031</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">75</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -623,7 +671,7 @@
     <scesimModelDescriptor>
       <factMappings>
         <FactMapping>
-          <expressionElements class="linked-list"/>
+          <expressionElements/>
           <expressionIdentifier>
             <name>1|1</name>
             <type>GIVEN</type>
@@ -636,10 +684,11 @@
           <factAlias>INSTANCE 1</factAlias>
           <expressionAlias>PROPERTY 1</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
-    <scesimData class="linked-list">
+    <scesimData>
       <BackgroundData>
         <factMappingValues>
           <FactMappingValue>
