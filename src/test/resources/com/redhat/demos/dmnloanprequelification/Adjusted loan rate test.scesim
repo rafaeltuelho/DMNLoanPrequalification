@@ -172,7 +172,7 @@
               <name>1|2</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">750</rawValue>
+            <rawValue class="string">720</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -194,7 +194,7 @@
               <name>1|4</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">0.25</rawValue>
+            <rawValue class="string">0.5</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -205,7 +205,7 @@
               <name>1|5</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">0.23125</rawValue>
+            <rawValue class="string">0.2625</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
