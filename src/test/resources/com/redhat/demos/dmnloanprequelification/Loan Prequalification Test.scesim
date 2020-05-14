@@ -35,6 +35,46 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
+              <step>Best rate</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1589494574208</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Best rate</name>
+            <className>.Best rate</className>
+          </factIdentifier>
+          <className>tPercent</className>
+          <factAlias>Best rate</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>LTV ratio</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1589494699428</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>LTV ratio</name>
+            <className>.LTV ratio</className>
+          </factIdentifier>
+          <className>tPercent</className>
+          <factAlias>LTV ratio</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
               <step>Credit Score</step>
             </ExpressionElement>
           </expressionElements>
@@ -69,27 +109,6 @@
           </factIdentifier>
           <className>tPositiveNumber</className>
           <factAlias>Down Payment</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Loan Rate pct</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|3</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Loan Rate pct</name>
-            <className>Loan Rate pct</className>
-          </factIdentifier>
-          <className>tPercent</className>
-          <factAlias>Loan Rate pct</factAlias>
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
@@ -324,17 +343,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Loan Rate pct</name>
-              <className>Loan Rate pct</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|3</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">4</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>Monthly Income</name>
               <className>Monthly Income</className>
             </factIdentifier>
@@ -442,6 +450,28 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">1</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Best rate</name>
+              <className>.Best rate</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1589494574208</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">5</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>LTV ratio</name>
+              <className>.LTV ratio</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1589494699428</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">75</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
