@@ -428,7 +428,7 @@
       </dmn:rule>
       <dmn:rule id="_DF87600E-2150-40E7-8981-C4C90817BD0B">
         <dmn:inputEntry id="_6F4D1003-2570-4FE1-88DD-99600C794BC8">
-          <dmn:text>[620..640]</dmn:text>
+          <dmn:text>[620..640)</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_2BB51E6B-C176-434C-BDBA-35B6C1DC2DB6">
           <dmn:text>&lt;=60</dmn:text>
@@ -439,7 +439,7 @@
       </dmn:rule>
       <dmn:rule id="_DC0CFCA0-FBC9-4652-9177-792D736F7C63">
         <dmn:inputEntry id="_FC39EE21-2728-4C60-8BF5-71A811FE0402">
-          <dmn:text>[620..640]</dmn:text>
+          <dmn:text>[620..640)</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_2CD27D8E-D9B3-4A48-BD4A-B48DA810BA1D">
           <dmn:text>(60..70]</dmn:text>
@@ -450,7 +450,7 @@
       </dmn:rule>
       <dmn:rule id="_6E9C21CE-0023-454D-A24F-51EAE244EC96">
         <dmn:inputEntry id="_6578C10A-B96D-4B0C-B7C4-D573D9786E60">
-          <dmn:text>[620..640]</dmn:text>
+          <dmn:text>[620..640)</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_0A8875C8-9C7A-4D4E-89B4-B053371FA2D5">
           <dmn:text>(70..80]</dmn:text>
@@ -461,7 +461,7 @@
       </dmn:rule>
       <dmn:rule id="_1A467461-2BA9-4367-A7EE-7E691C6B2F29">
         <dmn:inputEntry id="_B738FEA4-26E8-4AC9-A3B9-F2338991CFDB">
-          <dmn:text>[620..640]</dmn:text>
+          <dmn:text>[620..640)</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_2D2006CA-6180-420C-9042-9DCF7B809E1B">
           <dmn:text>(80..95]</dmn:text>
@@ -472,7 +472,7 @@
       </dmn:rule>
       <dmn:rule id="_E4CBF710-2420-46B3-B745-9869D85DC2B1">
         <dmn:inputEntry id="_CCE560F2-3AC4-4310-B70C-A637D3216445">
-          <dmn:text>[620..640]</dmn:text>
+          <dmn:text>[620..640)</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_44EE4CEE-9B55-465A-A835-183D744831F0">
           <dmn:text>(95..97]</dmn:text>
