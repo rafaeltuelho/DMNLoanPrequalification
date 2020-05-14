@@ -40,7 +40,7 @@
     <dmn:informationRequirement id="_529AD526-3F2F-42CC-B58D-534E62A212D1">
       <dmn:requiredInput href="#_B8A3EB80-6EBF-4795-A472-E658FD51FB9F"/>
     </dmn:informationRequirement>
-    <dmn:decisionTable id="_DDF51729-2428-42DD-B61D-5156B165C32F" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+    <dmn:decisionTable id="_DDF51729-2428-42DD-B61D-5156B165C32F" hitPolicy="ANY" preferredOrientation="Rule-as-Row">
       <dmn:input id="_40AAA025-88ED-45A3-9060-285D59EE3FE8">
         <dmn:inputExpression id="_28236645-5740-4C75-AB3D-898661CFE0AF" typeRef="number">
           <dmn:text>p_Credit score</dmn:text>
