@@ -492,7 +492,7 @@
               <name>1|16</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">Approved</rawValue>
+            <rawValue class="string">&quot;Likely approved&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
