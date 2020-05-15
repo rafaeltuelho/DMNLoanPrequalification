@@ -593,7 +593,7 @@
         <di:waypoint x="522" y="652"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_BD11ACEF-030E-4CF2-A809-BD39C30CDBCD" dmnElementRef="_BD11ACEF-030E-4CF2-A809-BD39C30CDBCD">
-        <di:waypoint x="297" y="677"/>
+        <di:waypoint x="366" y="677"/>
         <di:waypoint x="472" y="677"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_339059F3-F385-4259-9AB9-2A4D623FA08F" dmnElementRef="_339059F3-F385-4259-9AB9-2A4D623FA08F">
