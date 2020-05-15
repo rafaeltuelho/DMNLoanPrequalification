@@ -56,26 +56,6 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>p_Best rate</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1589500520564</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>p_Best rate</name>
-            <className>.p_Best rate</className>
-          </factIdentifier>
-          <className>tPercent</className>
-          <factAlias>p_Best rate</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
               <step>Credit Score</step>
             </ExpressionElement>
           </expressionElements>
@@ -91,26 +71,6 @@
           <factAlias>Credit Score</factAlias>
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>p_Credit score</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1589500534455</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>p_Credit score</name>
-            <className>.p_Credit score</className>
-          </factIdentifier>
-          <className>tCreditScore</className>
-          <factAlias>p_Credit score</factAlias>
-          <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>114.0</columnWidth>
         </FactMapping>
@@ -153,26 +113,6 @@
           <factAlias>LTV ratio</factAlias>
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>p_LTV</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1589500572031</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>p_LTV</name>
-            <className>.p_LTV</className>
-          </factIdentifier>
-          <className>tPercent</className>
-          <factAlias>p_LTV</factAlias>
-          <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>114.0</columnWidth>
         </FactMapping>
@@ -540,7 +480,7 @@
               <name>1|12</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">2</rawValue>
+            <rawValue class="string">1147.633506021765040994606033737226</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -573,7 +513,7 @@
               <name>1|15</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
+            <rawValue class="string">747.6335060217650409946060337372257</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -584,7 +524,7 @@
               <name>1|16</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">Likely Approved</rawValue>
+            <rawValue class="string">Approved</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -629,39 +569,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">1</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>p_Best rate</name>
-              <className>.p_Best rate</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1589500520564</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">0.2</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>p_Credit score</name>
-              <className>.p_Credit score</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1589500534455</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">750</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>p_LTV</name>
-              <className>.p_LTV</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1589500572031</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">75</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
