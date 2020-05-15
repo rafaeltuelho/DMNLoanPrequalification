@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.redhat.demos</groupId>
-  <artifactId>DMNLoanPrequelification</artifactId>
+  <artifactId>DMNLoanPrequalification</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>kjar</packaging>
-  <name>DMNLoanPrequelification</name>
+  <name>DMNLoanPrequalification</name>
   <description></description>
   <dependencies>
     <dependency>
