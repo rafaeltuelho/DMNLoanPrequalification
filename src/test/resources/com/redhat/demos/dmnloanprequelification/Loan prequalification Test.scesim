@@ -224,27 +224,6 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>LLPA</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|13</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>LLPA</name>
-            <className>LLPA</className>
-          </factIdentifier>
-          <className>tPercent</className>
-          <factAlias>LLPA</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
               <step>Loan Amount</step>
             </ExpressionElement>
           </expressionElements>
@@ -481,17 +460,6 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">1147.633506021765040994606033737226</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>LLPA</name>
-              <className>LLPA</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|13</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
