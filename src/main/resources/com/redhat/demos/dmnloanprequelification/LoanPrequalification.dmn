@@ -49,7 +49,7 @@
         <dmn:text>services.Adjusted Loan Rate</dmn:text>
       </dmn:literalExpression>
       <dmn:binding>
-        <dmn:parameter id="_25269164-70BA-4289-B402-6C4414E83DDD" name="p_Best Rate" typeRef="services.tPercent"/>
+        <dmn:parameter id="_25269164-70BA-4289-B402-6C4414E83DDD" name="p_Best rate" typeRef="services.tPercent"/>
         <dmn:literalExpression id="_B81B7CAA-1E82-4693-880E-0C85A1E0DD1C">
           <dmn:text>Best rate</dmn:text>
         </dmn:literalExpression>
@@ -61,7 +61,7 @@
         </dmn:literalExpression>
       </dmn:binding>
       <dmn:binding>
-        <dmn:parameter id="_F3DE6D69-FAE4-4FBE-BE11-44013C9E9C62" name="p_Credit Score" typeRef="services.tCreditScore"/>
+        <dmn:parameter id="_F3DE6D69-FAE4-4FBE-BE11-44013C9E9C62" name="p_Credit score" typeRef="services.tCreditScore"/>
         <dmn:literalExpression id="_B30221DA-8A1E-4B71-A986-A516E0A95D73">
           <dmn:text>Credit Score</dmn:text>
         </dmn:literalExpression>
