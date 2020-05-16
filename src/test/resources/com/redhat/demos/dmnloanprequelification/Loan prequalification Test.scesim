@@ -374,7 +374,7 @@
               <name>1|10</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">Affordable</rawValue>
+            <rawValue class="string">&quot;Affordable&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -385,7 +385,7 @@
               <name>1|11</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
+            <rawValue class="string">14.34541882527206301243257542171532</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
