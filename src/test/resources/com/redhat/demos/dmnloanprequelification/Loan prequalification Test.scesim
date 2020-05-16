@@ -308,27 +308,6 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>Rate</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|18</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Rate</name>
-            <className>Rate</className>
-          </factIdentifier>
-          <className>tPercent</className>
-          <factAlias>Rate</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
               <step>Tax and Insurance Payment</step>
             </ExpressionElement>
           </expressionElements>
@@ -501,17 +480,6 @@
             </factIdentifier>
             <expressionIdentifier>
               <name>1|17</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Rate</name>
-              <className>Rate</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|18</name>
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">3</rawValue>
