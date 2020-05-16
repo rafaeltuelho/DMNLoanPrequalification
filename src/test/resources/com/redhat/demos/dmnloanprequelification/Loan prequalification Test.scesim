@@ -177,7 +177,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>178.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
