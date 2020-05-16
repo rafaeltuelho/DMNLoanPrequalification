@@ -219,7 +219,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>301.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -261,7 +261,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>300.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -282,49 +282,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Loan rate pct</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|17</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Loan rate pct</name>
-            <className>Loan rate pct</className>
-          </factIdentifier>
-          <className>tPercent</className>
-          <factAlias>Loan rate pct</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Tax and Insurance Payment</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|19</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Tax and Insurance Payment</name>
-            <className>Tax and Insurance Payment</className>
-          </factIdentifier>
-          <className>tPositiveNumber</className>
-          <factAlias>Tax and Insurance Payment</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>188.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -472,28 +430,6 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">&quot;Likely approved&quot;</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Loan rate pct</name>
-              <className>Loan rate pct</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|17</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Tax and Insurance Payment</name>
-              <className>Tax and Insurance Payment</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|19</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
