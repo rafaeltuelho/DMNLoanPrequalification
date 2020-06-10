@@ -24,7 +24,7 @@
     <dmn:informationRequirement id="_0342EB3A-5068-4C5B-A367-3D077CC2BB8E">
       <dmn:requiredInput href="#_CF8F4266-5E76-44AB-9F06-24161A7830BD"/>
     </dmn:informationRequirement>
-    <dmn:decisionTable id="_16D29DDB-0445-4C4A-A857-E664EFAA7A0D" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+    <dmn:decisionTable id="_16D29DDB-0445-4C4A-A857-E664EFAA7A0D" hitPolicy="COLLECT" preferredOrientation="Rule-as-Row">
       <dmn:input id="_BB3F5B88-CDB5-43B6-9D5B-3B78A9513C2F">
         <dmn:inputExpression id="_B38B5ECC-368B-4B69-9D06-F4680E82DED4" typeRef="number">
           <dmn:text>Loan Product.rate</dmn:text>
