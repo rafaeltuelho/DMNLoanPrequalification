@@ -57,7 +57,7 @@
       </dmn:rule>
       <dmn:rule id="_8E57500F-2780-4374-A619-ADDDA47833A4">
         <dmn:inputEntry id="_4B711876-751C-410B-955E-1F1E11E72C39">
-          <dmn:text>&lt;0.04</dmn:text>
+          <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_CC7E3F57-C1CE-4338-9C4A-CA121AF4B757">
           <dmn:text>0</dmn:text>
@@ -71,7 +71,7 @@
       </dmn:rule>
       <dmn:rule id="_6EB39404-F7E8-4E41-BE22-0017CBC8449F">
         <dmn:inputEntry id="_9F3DC258-A01D-4FBD-973B-F983017DD20A">
-          <dmn:text>&lt;0.04</dmn:text>
+          <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_BDD7CAE5-F010-4898-9318-59104322F0FB">
           <dmn:text>0</dmn:text>
@@ -85,7 +85,7 @@
       </dmn:rule>
       <dmn:rule id="_A9D189BC-88AA-4264-A036-5625F6C552F1">
         <dmn:inputEntry id="_C2C2523A-FE15-42D5-93A2-62BABFEAD58A">
-          <dmn:text>&lt;0.04</dmn:text>
+          <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_941883D1-A2FC-47C1-8809-07924C9F1E32">
           <dmn:text>&gt;0</dmn:text>
