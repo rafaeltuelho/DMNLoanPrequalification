@@ -29,6 +29,23 @@
   <dmn:itemDefinition id="_288A95EA-60D7-4EE2-9538-C7E1FA865809" name="tPercent" isCollection="false">
     <dmn:typeRef>number</dmn:typeRef>
   </dmn:itemDefinition>
+  <dmn:itemDefinition id="_0C695B57-B477-463B-9DA5-BDAA793F5037" name="tLoanProduct" isCollection="false">
+    <dmn:itemComponent id="_E46987AD-BC06-492E-A6E8-AFF1BF545434" name="lenderName" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_42FF8BFA-84FD-4585-A94D-751784954FCA" name="rate" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_ED555663-115C-47AA-9BFF-26F168EA6E87" name="points" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_989CC106-63C5-452E-8EA6-66F5DD241FDD" name="fee" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
+  <dmn:itemDefinition id="_95F28FE6-000E-4D38-88DD-1EE4FBDD95A9" name="tLoanTable" isCollection="true">
+    <dmn:typeRef>tLoanProduct</dmn:typeRef>
+  </dmn:itemDefinition>
   <dmn:decision id="_3EB49B27-6649-47BC-90B7-43BD4111C8A4" name="Loan rate pct">
     <dmn:extensionElements/>
     <dmn:variable id="_1D0E34E0-51AE-4214-A58B-C70909852797" name="Loan rate pct" typeRef="tPercent"/>
