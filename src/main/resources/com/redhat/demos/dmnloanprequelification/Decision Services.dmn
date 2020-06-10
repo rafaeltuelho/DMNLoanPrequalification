@@ -103,7 +103,7 @@
     <dmn:extensionElements/>
     <dmn:variable id="_96B713F3-C7DC-4E2C-9519-8E61AA508F92" name="Loan Table" typeRef="tLoanTable"/>
     <dmn:relation id="_F40919BA-91F5-4BDE-8376-7554DCB96550">
-      <dmn:column id="_BAE47E09-6D7F-405D-86A9-E9D656AFA471" name="column-1"/>
+      <dmn:column id="_BAE47E09-6D7F-405D-86A9-E9D656AFA471" name="lenderName" typeRef="string"/>
       <dmn:row id="_B48A03D5-10BB-464B-BA2A-FD7F25651F8E">
         <dmn:literalExpression id="_E851E09A-ED71-4B32-8BEE-4B5EFB040B5B">
           <dmn:text></dmn:text>
