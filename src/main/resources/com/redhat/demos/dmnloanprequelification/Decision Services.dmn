@@ -25,9 +25,9 @@
       <dmn:requiredInput href="#_CF8F4266-5E76-44AB-9F06-24161A7830BD"/>
     </dmn:informationRequirement>
     <dmn:decisionTable id="_16D29DDB-0445-4C4A-A857-E664EFAA7A0D" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
-      <dmn:input id="_62941650-5D76-497F-ABD8-620854EC5C21">
-        <dmn:inputExpression id="_D7D21C98-B840-47B1-9D91-32690D912544" typeRef="number">
-          <dmn:text>Loan Product.fees</dmn:text>
+      <dmn:input id="_BB3F5B88-CDB5-43B6-9D5B-3B78A9513C2F">
+        <dmn:inputExpression id="_B38B5ECC-368B-4B69-9D06-F4680E82DED4" typeRef="number">
+          <dmn:text>Loan Product.rate</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:input id="_847E3344-F6C0-4799-B3D5-EE8AC9887959">
@@ -35,20 +35,20 @@
           <dmn:text>Loan Product.points</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:input id="_BB3F5B88-CDB5-43B6-9D5B-3B78A9513C2F">
-        <dmn:inputExpression id="_B38B5ECC-368B-4B69-9D06-F4680E82DED4" typeRef="number">
-          <dmn:text>Loan Product.rate</dmn:text>
+      <dmn:input id="_62941650-5D76-497F-ABD8-620854EC5C21">
+        <dmn:inputExpression id="_D7D21C98-B840-47B1-9D91-32690D912544" typeRef="number">
+          <dmn:text>Loan Product.fees</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:output id="_AC842AEF-88F7-4CDB-B506-DCAAE382D134"/>
       <dmn:rule id="_D83401A4-291C-436E-8FCF-877111B490D3">
-        <dmn:inputEntry id="_767632C1-3184-4519-83C5-5F655907D629">
+        <dmn:inputEntry id="_72070D5B-931D-4216-AE52-4361012CF122">
           <dmn:text>&lt;0.04</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_B328CB22-0D0F-40A5-A2C7-A4F1737F4DF5">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_72070D5B-931D-4216-AE52-4361012CF122">
+        <dmn:inputEntry id="_767632C1-3184-4519-83C5-5F655907D629">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_6B68D6F8-C0EF-4F4D-BFBA-0D3FAB9D8DC6">
@@ -56,13 +56,13 @@
         </dmn:outputEntry>
       </dmn:rule>
       <dmn:rule id="_8E57500F-2780-4374-A619-ADDDA47833A4">
-        <dmn:inputEntry id="_4B711876-751C-410B-955E-1F1E11E72C39">
+        <dmn:inputEntry id="_FAC398E2-9CFB-4E2E-A640-A4E333BED41F">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_CC7E3F57-C1CE-4338-9C4A-CA121AF4B757">
           <dmn:text>0</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_FAC398E2-9CFB-4E2E-A640-A4E333BED41F">
+        <dmn:inputEntry id="_4B711876-751C-410B-955E-1F1E11E72C39">
           <dmn:text>0</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_07AAF841-2116-4A36-900A-2F37E2EFFF7D">
@@ -70,13 +70,13 @@
         </dmn:outputEntry>
       </dmn:rule>
       <dmn:rule id="_6EB39404-F7E8-4E41-BE22-0017CBC8449F">
-        <dmn:inputEntry id="_9F3DC258-A01D-4FBD-973B-F983017DD20A">
+        <dmn:inputEntry id="_77990A34-61CD-45AF-91AF-44F29302174E">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_BDD7CAE5-F010-4898-9318-59104322F0FB">
           <dmn:text>0</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_77990A34-61CD-45AF-91AF-44F29302174E">
+        <dmn:inputEntry id="_9F3DC258-A01D-4FBD-973B-F983017DD20A">
           <dmn:text>&gt;0</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_63C344CF-097D-4832-87A2-1FF8BFB8FF56">
@@ -84,13 +84,13 @@
         </dmn:outputEntry>
       </dmn:rule>
       <dmn:rule id="_A9D189BC-88AA-4264-A036-5625F6C552F1">
-        <dmn:inputEntry id="_C2C2523A-FE15-42D5-93A2-62BABFEAD58A">
+        <dmn:inputEntry id="_BAA655AB-C09D-48EC-94B7-A96627AB12A7">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_941883D1-A2FC-47C1-8809-07924C9F1E32">
           <dmn:text>&gt;0</dmn:text>
         </dmn:inputEntry>
-        <dmn:inputEntry id="_BAA655AB-C09D-48EC-94B7-A96627AB12A7">
+        <dmn:inputEntry id="_C2C2523A-FE15-42D5-93A2-62BABFEAD58A">
           <dmn:text>0</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_FFE45B26-AB5B-476A-9AC1-2285EF6579C6">
@@ -109,9 +109,9 @@
         <kie:ComponentsWidthsExtension>
           <kie:ComponentWidths dmnElementRef="_16D29DDB-0445-4C4A-A857-E664EFAA7A0D">
             <kie:width>50.0</kie:width>
-            <kie:width>136.0</kie:width>
-            <kie:width>136.0</kie:width>
             <kie:width>143.0</kie:width>
+            <kie:width>136.0</kie:width>
+            <kie:width>136.0</kie:width>
             <kie:width>149.0</kie:width>
             <kie:width>100.0</kie:width>
           </kie:ComponentWidths>
