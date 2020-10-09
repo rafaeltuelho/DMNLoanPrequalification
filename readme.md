@@ -1,6 +1,6 @@
 # Loan Pre-qualification
 
-This project is based on the Loan Pre-qualification model used by Bruce Silver in his [DMN Methond & Style book](https://www.amazon.com/Dmn-Method-Style-2nd-Pracitioners/dp/0982368178).
+This project is based on the Loan Pre-qualification model used by Bruce Silver in his [DMN Method & Style book](https://www.amazon.com/Dmn-Method-Style-2nd-Pracitioners/dp/0982368178).
 
 ## Loan Prequalification (main DRD)
 ![Loan Prequalification.dmn](./LoanPrequalification.dmn.png)
