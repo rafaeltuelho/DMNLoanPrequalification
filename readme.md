@@ -1,5 +1,4 @@
-1. Loan Pre-qualification Decision Model
-=======================
+# Loan Pre-qualification
 
 This project is based on the Loan Pre-qualification model used by Bruce Silver in his [DMN Methond & Style book](https://www.amazon.com/Dmn-Method-Style-2nd-Pracitioners/dp/0982368178).
 
