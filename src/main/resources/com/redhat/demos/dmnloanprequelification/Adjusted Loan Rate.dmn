@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_1F251639-888E-495C-BFC4-D181312485EF" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_7C006A30-B901-4E3E-94BA-BD354FA4660B" name="Adjusted Loan Rate" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_1F251639-888E-495C-BFC4-D181312485EF">
   <dmn:extensionElements/>
   <dmn:itemDefinition id="_01894619-B6FC-40BB-A1EB-ECE4005A2E5B" name="tPercent" isCollection="false">
@@ -51,7 +50,8 @@
           <dmn:text>p_LTV</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:output id="_A39EB154-6EC1-49D2-B5BC-4A902E179975" typeRef="tPercent"/>
+      <dmn:output id="_A39EB154-6EC1-49D2-B5BC-4A902E179975"/>
+      <dmn:annotation name=""/>
       <dmn:rule id="_72E6F4AD-31DC-4D95-81A6-06D12483A4CA">
         <dmn:inputEntry id="_C5533D7B-2DE9-4AD3-AE15-A49E54E766A3">
           <dmn:text>&gt;=740</dmn:text>
@@ -62,6 +62,9 @@
         <dmn:outputEntry id="_BC558752-31B4-451D-A674-B204048EC5ED">
           <dmn:text>0</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_67E998F0-46D9-4888-84ED-B82173EEE5D4">
         <dmn:inputEntry id="_603DE123-EA42-41F3-B6B0-929CABB68E09">
@@ -73,6 +76,9 @@
         <dmn:outputEntry id="_FF142A0B-81DF-42B1-A9A3-64C11E3B2B22">
           <dmn:text>0.25</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_C8BB511B-B8E3-44F1-B0CA-96990F0F98CD">
         <dmn:inputEntry id="_FAAD71A1-FCAC-478B-9CB2-2E056ED4D970">
@@ -84,6 +90,9 @@
         <dmn:outputEntry id="_6F7F3FEF-7C1C-4F9F-ADDF-2B497616C585">
           <dmn:text>0.5</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_F65D47E4-938C-4972-8684-C1A72CC3BB2F">
         <dmn:inputEntry id="_F4B9A8EC-EE6A-469F-B358-47AA4F7F2017">
@@ -95,6 +104,9 @@
         <dmn:outputEntry id="_D168A8D6-9C53-42E5-90A1-3C0B6B5659FE">
           <dmn:text>0.75</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_D64B9019-542C-458F-A26F-2C4A376D1E4B">
         <dmn:inputEntry id="_4BC37F81-0A9A-4E90-87AA-16D4BDE10E4F">
@@ -106,6 +118,9 @@
         <dmn:outputEntry id="_7048D284-4562-4262-9C3E-1A4798CFBC51">
           <dmn:text>0</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_E0F39373-41F4-45F1-A370-C939A42E6912">
         <dmn:inputEntry id="_966197C7-5F5A-4973-828D-2C5F99A05E6D">
@@ -117,6 +132,9 @@
         <dmn:outputEntry id="_ADC4A50B-B800-4BAC-9248-FFDED6DD19AD">
           <dmn:text>0.25</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_E2283CB9-62B3-4C62-989D-F4F01EAB115F">
         <dmn:inputEntry id="_3CD6C50E-7578-4D68-8534-553F01ACBB94">
@@ -128,6 +146,9 @@
         <dmn:outputEntry id="_D522C8D6-4D01-48D3-916A-BED9202A4F2A">
           <dmn:text>0.5</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_2B518361-9538-4940-905F-ED4BE9009398">
         <dmn:inputEntry id="_ED0869E7-0899-49E8-BE90-F4C5F89854D0">
@@ -139,6 +160,9 @@
         <dmn:outputEntry id="_950EBDFF-A30B-4181-8C64-3B969D35988B">
           <dmn:text>0.75</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_B77A1E96-1B62-45B0-825F-47372E28BB43">
         <dmn:inputEntry id="_74FB7317-088D-48AD-A96D-24B11DAA3629">
@@ -150,6 +174,9 @@
         <dmn:outputEntry id="_3BA82DD4-22BB-47E6-8A50-4D3BCB0D2B86">
           <dmn:text>0.5</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_F2742ECF-EE1E-4786-B557-3AC4376FC541">
         <dmn:inputEntry id="_ABBABBA9-0407-4FFF-B922-6D6579BA5BCA">
@@ -161,6 +188,9 @@
         <dmn:outputEntry id="_B17FD410-A4FA-4713-90A7-9E0EE15ECFBD">
           <dmn:text>1.0</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_F2EBCBAA-D173-4703-BCB5-72B61FD822D6">
         <dmn:inputEntry id="_466226A1-B468-4149-8361-495237902432">
@@ -172,6 +202,9 @@
         <dmn:outputEntry id="_2E62CA73-D018-4E48-A6B8-F4BA0E49804E">
           <dmn:text>0</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_EF903B56-D212-455A-B695-189B026D801C">
         <dmn:inputEntry id="_9F48D7CC-3F5A-4FA9-A0A1-48D8164868A5">
@@ -183,6 +216,9 @@
         <dmn:outputEntry id="_A63C4A49-54AF-4796-9346-BDCA3FE4597D">
           <dmn:text>0.5</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_6307F2E1-28BA-4652-AF1D-55E65555ADD0">
         <dmn:inputEntry id="_2B4ACC2D-E98B-4494-93A7-D9D2BD8E7F87">
@@ -194,6 +230,9 @@
         <dmn:outputEntry id="_943A2B17-5182-48B0-9281-12F099C89A10">
           <dmn:text>1.0</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_8E9DC5BD-D4E3-424B-9D8A-8279E2C815DD">
         <dmn:inputEntry id="_776B977D-026A-4EF5-85AC-0630F7C40DBC">
@@ -205,6 +244,9 @@
         <dmn:outputEntry id="_A15EF5BA-A099-44C0-BD45-66DA6FF0C980">
           <dmn:text>1.25</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_A6671B99-F8FA-4D2A-95EF-C3F57E26122F">
         <dmn:inputEntry id="_878DA1C1-4AF3-4C47-A7B7-029EEB02FFAB">
@@ -216,6 +258,9 @@
         <dmn:outputEntry id="_EA0BEF49-16DB-40DA-B9B8-456EE9B94A64">
           <dmn:text>1.0</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_9C9859B9-A92B-4A1F-83F0-C452C1BFA783">
         <dmn:inputEntry id="_31ACAB75-1E86-4EBB-9521-D555E3A7D434">
@@ -227,6 +272,9 @@
         <dmn:outputEntry id="_4E83D621-9FAA-481E-87A2-C9AC19BFADD7">
           <dmn:text>1.5</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_2E647553-A193-4CE5-9274-17C45491C894">
         <dmn:inputEntry id="_52943A99-059E-4841-BB39-AD6DD229D9CF">
@@ -238,6 +286,9 @@
         <dmn:outputEntry id="_16E52E5D-A72E-4B2A-AADB-516D0A3322A9">
           <dmn:text>0</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_E2A87BEA-E062-4706-801C-DA2435194E46">
         <dmn:inputEntry id="_D31F6338-72D7-488E-A4DB-864ED47F837E">
@@ -249,6 +300,9 @@
         <dmn:outputEntry id="_63F4122C-CC0E-405A-8137-99968CF499E7">
           <dmn:text>0.5</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_3EBACB4B-B0E4-4A53-95EC-CCB5C7355A92">
         <dmn:inputEntry id="_2F76BBAB-E77E-418B-B67B-5A7F576B825C">
@@ -260,6 +314,9 @@
         <dmn:outputEntry id="_75A6AF44-ED78-4606-B31A-F8D527E1B97F">
           <dmn:text>1.25</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_3D1C1C78-D3CF-4A95-BC52-26B8265EA59C">
         <dmn:inputEntry id="_F7F802E1-7B93-425F-A85D-E9DD46935F50">
@@ -271,6 +328,9 @@
         <dmn:outputEntry id="_59237228-AD85-49A7-B30A-3828FD68620D">
           <dmn:text>1.75</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_95BE8A58-22D9-4D1D-A958-2F4BB1AAF545">
         <dmn:inputEntry id="_2647E5F5-223C-4173-B50D-FAE21B3E93A2">
@@ -282,6 +342,9 @@
         <dmn:outputEntry id="_77660DF6-EBB5-44B6-8A1B-0050740775F8">
           <dmn:text>1.5</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_FC11F5A3-80F9-4E04-ADE1-18FAC8775C89">
         <dmn:inputEntry id="_980A2379-93AD-453F-A21C-97D81B7CEDBD">
@@ -293,6 +356,9 @@
         <dmn:outputEntry id="_A94029BA-A581-467D-AB74-2914B10CD8AE">
           <dmn:text>1.25</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_5773828F-4AA4-4D4D-A69D-57042F6DB3BF">
         <dmn:inputEntry id="_925957B9-2606-414A-8B8C-55E3AF6557B8">
@@ -304,6 +370,9 @@
         <dmn:outputEntry id="_76226AD6-01EA-446A-97CD-120EA45BD1E5">
           <dmn:text>1.5</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_6FDB116F-9E3D-4262-B3C0-70DD9E1D5910">
         <dmn:inputEntry id="_D74576D7-34C7-437B-979C-CCE66F8FACA8">
@@ -315,6 +384,9 @@
         <dmn:outputEntry id="_A91B6B19-C815-4191-9DD1-14A995BFD5A5">
           <dmn:text>0</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_06D1C94B-F6AD-4354-BBC5-15F03B5A9868">
         <dmn:inputEntry id="_C74A7DA2-6B9E-41D7-8BEE-5980F2BB97D9">
@@ -326,6 +398,9 @@
         <dmn:outputEntry id="_702F0990-F917-4475-9709-2D1862442947">
           <dmn:text>1.0</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_86593211-9423-48A4-AF76-5B9283850A72">
         <dmn:inputEntry id="_3EC2C480-7369-417C-BA42-6B4B80AA875F">
@@ -337,6 +412,9 @@
         <dmn:outputEntry id="_30A970F3-443D-4270-B5E4-5B9AAA7B43D3">
           <dmn:text>2.25</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_977B9835-E816-4676-956F-C3C26CF831E8">
         <dmn:inputEntry id="_6EC702AE-0C6E-4251-9A17-BF8E49D48615">
@@ -348,6 +426,9 @@
         <dmn:outputEntry id="_3A4A85E7-5C1B-4A70-9428-8CBB4E6BDCD9">
           <dmn:text>2.75</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_1C23AA2E-CF39-45A8-BC2E-1565E8B39464">
         <dmn:inputEntry id="_16318557-C7B4-4E79-8085-F603F09707D9">
@@ -359,6 +440,9 @@
         <dmn:outputEntry id="_85B1BAA6-968D-425C-BDBF-3BDEA4230E00">
           <dmn:text>2.25</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_49A87550-FFA5-45A1-9074-A97FBC310E39">
         <dmn:inputEntry id="_85CD02C1-7093-4C32-B6BE-E717ADEB20DD">
@@ -370,6 +454,9 @@
         <dmn:outputEntry id="_BE1DA5F9-7F65-4E18-8CB0-88A9CED6E12A">
           <dmn:text>0.5</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_54375964-3090-4359-854B-EA348B7278DB">
         <dmn:inputEntry id="_5FEF450F-90A3-4223-BF5A-F607C47E2054">
@@ -381,6 +468,9 @@
         <dmn:outputEntry id="_CA51ED47-14E6-4D8E-A1DB-AE3EBD4A1106">
           <dmn:text>1.25</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_1092E6B0-5B83-471A-87AE-8027585CAD6C">
         <dmn:inputEntry id="_CF2B3A88-BA52-47F9-8680-31D1815C91FA">
@@ -392,6 +482,9 @@
         <dmn:outputEntry id="_1A3F9A1F-255A-454D-A692-0FA580FD42D6">
           <dmn:text>2.75</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_52680177-CA7B-408A-9C58-DBFF46764D8D">
         <dmn:inputEntry id="_9C0667E6-6541-4C56-9751-09976E75134D">
@@ -403,6 +496,9 @@
         <dmn:outputEntry id="_1D6D46DA-44EA-4110-BB9C-8E1576396C86">
           <dmn:text>3.0</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_52143F08-F90A-4D9F-8E4E-10A3938400B0">
         <dmn:inputEntry id="_13DC0CB2-3C3F-4B98-B10D-6C56CC89D194">
@@ -414,6 +510,9 @@
         <dmn:outputEntry id="_10148E5E-83B1-44AF-AAA1-72B2FE5A008C">
           <dmn:text>3.25</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_28F4B0F0-8549-4A71-AB37-0B0E688B6B92">
         <dmn:inputEntry id="_89B01160-A6AE-47D7-BBEA-EA7F753BDCA9">
@@ -425,6 +524,9 @@
         <dmn:outputEntry id="_A4B4933D-F6C2-40CD-8315-A44C4713D7E4">
           <dmn:text>2.75</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_DF87600E-2150-40E7-8981-C4C90817BD0B">
         <dmn:inputEntry id="_6F4D1003-2570-4FE1-88DD-99600C794BC8">
@@ -436,6 +538,9 @@
         <dmn:outputEntry id="_C850AD52-0C80-4D7C-8E0D-1A273F14460D">
           <dmn:text>0.5</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_DC0CFCA0-FBC9-4652-9177-792D736F7C63">
         <dmn:inputEntry id="_FC39EE21-2728-4C60-8BF5-71A811FE0402">
@@ -447,6 +552,9 @@
         <dmn:outputEntry id="_00DE5D32-CA53-4FD9-B232-3F246A606D08">
           <dmn:text>1.5</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_6E9C21CE-0023-454D-A24F-51EAE244EC96">
         <dmn:inputEntry id="_6578C10A-B96D-4B0C-B7C4-D573D9786E60">
@@ -458,6 +566,9 @@
         <dmn:outputEntry id="_431C6BC4-FC0E-4BD9-8F47-0F007D094464">
           <dmn:text>3.0</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_1A467461-2BA9-4367-A7EE-7E691C6B2F29">
         <dmn:inputEntry id="_B738FEA4-26E8-4AC9-A3B9-F2338991CFDB">
@@ -469,6 +580,9 @@
         <dmn:outputEntry id="_8A36495D-04F5-4799-925C-84ED51765F12">
           <dmn:text>3.25</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_E4CBF710-2420-46B3-B745-9869D85DC2B1">
         <dmn:inputEntry id="_CCE560F2-3AC4-4310-B70C-A637D3216445">
@@ -480,6 +594,9 @@
         <dmn:outputEntry id="_0F0E1C85-78DE-4AA3-B06C-A22434155482">
           <dmn:text>3.5</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_BC054D03-8BFF-4A74-B9B1-1F70D66348EE">
         <dmn:inputEntry id="_75F531D0-0855-45AD-B4B1-D9860DA9E567">
@@ -491,6 +608,9 @@
         <dmn:outputEntry id="_8DCFC9A6-107D-4608-B114-B0764C07BE27">
           <dmn:text>null</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
       <dmn:rule id="_A344025B-1BD7-4E44-AE4B-39E3B6A23D64">
         <dmn:inputEntry id="_742540F3-4ED1-4D3D-8538-18F561642D40">
@@ -502,6 +622,9 @@
         <dmn:outputEntry id="_24975C19-48FB-45F7-AA29-1851D612C730">
           <dmn:text>null</dmn:text>
         </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text/>
+        </dmn:annotationEntry>
       </dmn:rule>
     </dmn:decisionTable>
   </dmn:decision>
@@ -518,23 +641,26 @@
       <dmn:text>p_Best rate + 0.125*LLPA</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
+  <dmn:textAnnotation id="_C5CB376B-301C-4EF5-B1F3-7AA3402C5D48" textFormat="text/plain">
+    <dmn:text> Loan-Level Price Adjustment</dmn:text>
+  </dmn:textAnnotation>
   <dmndi:DMNDI>
-    <dmndi:DMNDiagram>
+    <dmndi:DMNDiagram id="_4B6B11BF-B4F6-4A7D-9BD8-E91B61AA88A3" name="DRG">
       <di:extension>
         <kie:ComponentsWidthsExtension>
           <kie:ComponentWidths dmnElementRef="_DDF51729-2428-42DD-B61D-5156B165C32F">
-            <kie:width>50.0</kie:width>
-            <kie:width>100.0</kie:width>
-            <kie:width>100.0</kie:width>
-            <kie:width>100.0</kie:width>
-            <kie:width>100.0</kie:width>
+            <kie:width>50</kie:width>
+            <kie:width>100</kie:width>
+            <kie:width>100</kie:width>
+            <kie:width>100</kie:width>
+            <kie:width>100</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_CEFB639A-45BD-4CF9-8CC4-14D9AC68E931">
-            <kie:width>300.0</kie:width>
+            <kie:width>300</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
-      <dmndi:DMNShape id="dmnshape-_611CB12A-489F-49DB-B0CD-556F1D17242F" dmnElementRef="_611CB12A-489F-49DB-B0CD-556F1D17242F" isCollapsed="false">
+      <dmndi:DMNShape id="dmnshape-drg-_611CB12A-489F-49DB-B0CD-556F1D17242F" dmnElementRef="_611CB12A-489F-49DB-B0CD-556F1D17242F" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
@@ -547,7 +673,7 @@
           <di:waypoint x="490" y="161"/>
         </dmndi:DMNDecisionServiceDividerLine>
       </dmndi:DMNShape>
-      <dmndi:DMNShape id="dmnshape-_C5831BA2-FA08-40D7-B5D6-632CBC8D4725" dmnElementRef="_C5831BA2-FA08-40D7-B5D6-632CBC8D4725" isCollapsed="false">
+      <dmndi:DMNShape id="dmnshape-drg-_C5831BA2-FA08-40D7-B5D6-632CBC8D4725" dmnElementRef="_C5831BA2-FA08-40D7-B5D6-632CBC8D4725" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
@@ -556,7 +682,7 @@
         <dc:Bounds x="129" y="102" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape id="dmnshape-_F395BD84-73BA-4360-9C45-4E7539D01259" dmnElementRef="_F395BD84-73BA-4360-9C45-4E7539D01259" isCollapsed="false">
+      <dmndi:DMNShape id="dmnshape-drg-_F395BD84-73BA-4360-9C45-4E7539D01259" dmnElementRef="_F395BD84-73BA-4360-9C45-4E7539D01259" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
@@ -565,7 +691,7 @@
         <dc:Bounds x="234.29906542056074" y="313" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape id="dmnshape-_B8A3EB80-6EBF-4795-A472-E658FD51FB9F" dmnElementRef="_B8A3EB80-6EBF-4795-A472-E658FD51FB9F" isCollapsed="false">
+      <dmndi:DMNShape id="dmnshape-drg-_B8A3EB80-6EBF-4795-A472-E658FD51FB9F" dmnElementRef="_B8A3EB80-6EBF-4795-A472-E658FD51FB9F" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
@@ -574,7 +700,7 @@
         <dc:Bounds x="444" y="313" width="110" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape id="dmnshape-_5E5E41D3-44C0-46AC-B42D-D185528CD8F5" dmnElementRef="_5E5E41D3-44C0-46AC-B42D-D185528CD8F5" isCollapsed="false">
+      <dmndi:DMNShape id="dmnshape-drg-_5E5E41D3-44C0-46AC-B42D-D185528CD8F5" dmnElementRef="_5E5E41D3-44C0-46AC-B42D-D185528CD8F5" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
@@ -583,7 +709,7 @@
         <dc:Bounds x="340" y="182" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape id="dmnshape-_53253240-A9DA-48C5-A0B3-9F1A6F7D51DD" dmnElementRef="_53253240-A9DA-48C5-A0B3-9F1A6F7D51DD" isCollapsed="false">
+      <dmndi:DMNShape id="dmnshape-drg-_53253240-A9DA-48C5-A0B3-9F1A6F7D51DD" dmnElementRef="_53253240-A9DA-48C5-A0B3-9F1A6F7D51DD" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
@@ -592,19 +718,28 @@
         <dc:Bounds x="340" y="103" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNEdge id="dmnedge-_EABC4672-C6BF-43ED-9559-385FE2F4807A" dmnElementRef="_EABC4672-C6BF-43ED-9559-385FE2F4807A">
+      <dmndi:DMNShape id="dmnshape-drg-_C5CB376B-301C-4EF5-B1F3-7AA3402C5D48" dmnElementRef="_C5CB376B-301C-4EF5-B1F3-7AA3402C5D48" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="508" y="169" width="159" height="76"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="dmnedge-drg-_EABC4672-C6BF-43ED-9559-385FE2F4807A" dmnElementRef="_EABC4672-C6BF-43ED-9559-385FE2F4807A">
         <di:waypoint x="284.29906542056074" y="338"/>
         <di:waypoint x="390" y="232"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-_529AD526-3F2F-42CC-B58D-534E62A212D1" dmnElementRef="_529AD526-3F2F-42CC-B58D-534E62A212D1">
+      <dmndi:DMNEdge id="dmnedge-drg-_529AD526-3F2F-42CC-B58D-534E62A212D1" dmnElementRef="_529AD526-3F2F-42CC-B58D-534E62A212D1">
         <di:waypoint x="499" y="338"/>
         <di:waypoint x="390" y="232"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-_11C7C959-130D-4FC4-AD92-65614CD91FB4" dmnElementRef="_11C7C959-130D-4FC4-AD92-65614CD91FB4">
+      <dmndi:DMNEdge id="dmnedge-drg-_11C7C959-130D-4FC4-AD92-65614CD91FB4" dmnElementRef="_11C7C959-130D-4FC4-AD92-65614CD91FB4">
         <di:waypoint x="179" y="127"/>
         <di:waypoint x="340" y="128"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-_D42EF714-9AC6-4F46-8171-888E2E6A1E8E" dmnElementRef="_D42EF714-9AC6-4F46-8171-888E2E6A1E8E">
+      <dmndi:DMNEdge id="dmnedge-drg-_D42EF714-9AC6-4F46-8171-888E2E6A1E8E" dmnElementRef="_D42EF714-9AC6-4F46-8171-888E2E6A1E8E">
         <di:waypoint x="390" y="207"/>
         <di:waypoint x="390" y="153"/>
       </dmndi:DMNEdge>
